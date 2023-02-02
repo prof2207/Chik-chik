@@ -1,0 +1,123 @@
+.reserve {
+    padding: 6.2rem 0 12.4rem;
+}
+
+.reserve__title {
+    font-weight: 400;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 2.4rem;
+}
+
+.reserve__list {
+    padding-left: 2.4rem;
+    margin: 0 0 7.2rem;
+    line-height: 1.5;
+}
+
+.reserve__item {
+    margin-bottom: 0.8rem;
+}
+
+.reserve__item:last-child {
+    margin-bottom: 0;
+}
+
+.reserve__form-container {
+    margin-bottom: 4rem;
+}
+
+.reserve__fieldset {
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 7.2rem;
+    gap: 0.8rem;
+}
+
+.reserve__legend {
+    flex-basis: 100%;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 2.4rem;
+}
+
+.reserve__fieldset_sub {
+    flex-basis: 100%;
+    margin-bottom: 2.4rem;
+}
+
+
+.reserve__fieldset:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .reserve {
+        padding: 4rem 0 8rem;
+    }
+
+    .reserve__title {
+        font-size: 3.2rem;
+    }
+
+    .reserve__list {
+        margin-bottom: 4rem;
+    }
+
+    .reserve__form-container {
+        margin-bottom: 3.2rem;
+    }
+
+    .reserve__fieldset {
+        margin-bottom: 4rem;
+    }
+
+    .reserve__legend {
+        font-size: 1.6rem;
+        margin-bottom: 1.6rem;
+    }
+
+    .reserve__fieldset_sub {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 560px) {
+    .reserve {
+        padding: 3.2rem 0 6.4rem;
+    }
+
+    .reserve__title {
+        font-size: 2rem;
+        margin-bottom: 1.6rem;
+    }
+
+    .reserve__list {
+        padding-left: 1.8rem;
+        margin-bottom: 3.2rem;
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+
+    .reserve__form-container {
+        margin-bottom: 2.4rem;
+    }
+
+    .reserve__fieldset {
+        margin-bottom: 3.2rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .reserve__fieldset {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+}
